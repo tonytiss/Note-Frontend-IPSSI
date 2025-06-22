@@ -1,35 +1,31 @@
-# mon-front-vue
+# Frontend Vue.js – Projet Pédagogique
 
-This template should help get you started developing with Vue 3 in Vite.
+## Description
 
-## Recommended IDE Setup
+Ce projet est une interface frontend développée en **Vue.js**, réalisée dans le cadre d’un **projet pédagogique**.  
+Il a pour objectif de démontrer les mécanismes de **création de compte utilisateur** ainsi que **l'authentification** via **JWT (JSON Web Token)**.
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## Fonctionnalités
 
-## Customize configuration
+- Création de compte utilisateur
+- Authentification via formulaire de connexion
+- Récupération d’un token JWT émis par le backend
+- Stockage sécurisé du token dans le **Local Storage**
+- Utilisation du token pour les futures requêtes authentifiées
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+## Détails techniques
 
-## Project Setup
+- **Framework frontend :** Vue.js
+- **Méthode d’authentification :** JSON Web Token (JWT)
+- **Stockage du token :** Local Storage
+- **Communication backend :** API REST (non incluse dans ce dépôt)
 
-```sh
+## Prérequis
+
+- Node.js et npm installés
+- Backend opérationnel (attente d’un token JWT en réponse à une requête de login)
+
+## Installation
+
+```bash
 npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
